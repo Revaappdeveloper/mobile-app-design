@@ -1,0 +1,27 @@
+.prevbtn {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+}
+
+.nextbtn {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+
+.prv {
+    position: absolute;
+    top: 50%;
+    left: calc(100% - 75%);
+    transform: translateY(-50%);
+}
+
+.nxt {
+    position: absolute;
+    top: 50%;
+    right: calc(100% - 75%);
+    transform: translateY(-50%);
+}

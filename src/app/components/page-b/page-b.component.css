@@ -1,0 +1,251 @@
+/* *{
+border:1px solid red;
+} */
+
+.log-container {
+    position: relative;
+    margin: 0px;
+    width: 411px;
+    height: 731px;
+    border: 1px solid blue;
+}
+
+.top-panel {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background: purple;
+    margin: 0px;
+}
+
+.percent {
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 10px;
+    right: 45px;
+}
+
+.time {
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    top: 10px;
+    left: 180px;
+}
+
+.brand {
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    top: 10px;
+    left: 70px;
+}
+
+.dot-holder {
+    position: absolute;
+    top: 5px;
+}
+
+.dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50px;
+    margin-left: 3px;
+}
+
+.battery {
+    background-image: url(/assets/full-battery.svg);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0px;
+    right: 10px;
+}
+
+.range {
+    background-image: url(/assets/wifi.svg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 5px;
+    left: 50px;
+}
+
+.left-angle-bracket {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 20px;
+    background-image: url(/assets/left-angle-bracket.svg);
+    background-size: 25px 50px;
+    background-repeat: no-repeat;
+}
+
+.Chat-person-name {
+    position: absolute;
+    top: 30px;
+    left: 130px;
+    color: snow;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.online-status {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    color: snow;
+    position: absolute;
+    bottom: 5px;
+    left: calc(100% - 50%);
+}
+
+.face-circle {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(/assets/girl3.jpg);
+    background-size: 49px 43px;
+    background-repeat: no-repeat;
+    bottom: 5px;
+    right: 25px;
+}
+
+.box {
+    width: 100%;
+    height: calc(100% - 130px);
+    overflow: auto;
+    background: whitesmoke;
+}
+
+.log {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    padding: 10px 20px 10px 20px;
+    /* border-bottom: 1px solid gray; */
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    
+}
+
+.conversation-left {
+    position: relative;
+    top:0px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background: white;
+    -webkit-box-shadow: 0px 0px 4px 1px rgba(125, 121, 125, 1);
+    -moz-box-shadow: 0px 0px 4px 1px rgba(125, 121, 125, 1);
+    box-shadow: 0px 0px 4px 1px rgba(125, 121, 125, 1);
+    text-align: center;
+    line-height: 50px;
+    color: gray;
+}
+
+.conversation-right {
+    position: relative;
+    top:0px;
+    margin-left: 120px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background: purple;
+    -webkit-box-shadow: 0px 0px 4px 1px rgba(125, 121, 125, 1);
+    -moz-box-shadow: 0px 0px 4px 1px rgba(125, 121, 125, 1);
+    box-shadow: 0px 0px 4px 1px rgba(125, 121, 125, 1);
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+.arrow-left {
+    position:absolute;
+    bottom:0px;
+    left:-20px;
+    width: 0; 
+    height: 0; 
+    border-top:10px solid transparent;
+    border-bottom: 0px solid transparent; 
+    border-left: 10px solid transparent;
+    border-right:10px solid red; 
+
+  }
+  .arrow-right {
+    position:absolute;
+    bottom:0px;
+    right:-10px;
+    width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-right:0px solid transparent;
+  border-bottom: 0px solid transparent;
+    border-left: 10px solid purple; 
+box-shadow:1px 3px3 3px rgba(125, 121, 125, 1);
+  }
+.bottom-panel {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    bottom: 0px;
+    background: white;
+    border-top: 1px solid grey;
+}
+
+.camera-icon {
+    background-image: url(/assets/camera.svg);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    left: 25px;
+}
+
+.attach-icon {
+    background-image: url(/assets/attachment.svg);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 18px;
+    left: 80px;
+}
+
+.type-here {
+    position: absolute;
+    top: 20px;
+    left: 130px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: grey;
+}
+
+.mic-icon {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    top: 8px;
+    right: 25px;
+    background: purple;
+    background-image: url(/assets/mic.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+}

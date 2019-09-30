@@ -1,0 +1,283 @@
+/* *{
+border:1px solid red;
+} */
+
+.log-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 411px;
+    height: 731px;
+    overflow: hidden;
+    border: 1px solid blue;
+}
+
+.top-panel {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background: purple;
+    margin: 0px;
+}
+
+.percent {
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 10px;
+    right: 45px;
+}
+
+.time {
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    top: 10px;
+    left: 180px;
+}
+
+.brand {
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    top: 10px;
+    left: 70px;
+}
+
+.dot-holder {
+    position: absolute;
+    top: 5px;
+}
+
+.dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50px;
+    margin-left: 3px;
+}
+
+.battery {
+    background-image: url(/assets/full-battery.svg);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0px;
+    right: 10px;
+}
+
+.range {
+    background-image: url(/assets/wifi.svg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 5px;
+    left: 50px;
+}
+
+.setting-page {
+    position: absolute;
+    top: 35px;
+    left: calc(100% - 58%);
+    color: whitesmoke;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.contact-setting{
+    position: relative;
+    margin: 0px;
+    width:100%;
+    height:240px;
+    background-color: purple;
+}
+
+
+.box {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 300px);
+    overflow: auto;
+    background: whitesmoke;
+}
+
+.contactperson-box {
+    position: relative;
+    width: 100%;
+    height: 130px;
+    background-color: white;
+}
+.contact-edit-view{
+    position: relative;
+    width:50%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: purple;
+}
+.setting-contactperson-face {
+    position: relative;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-25%);
+    /* top: 20px;
+    left: 15px; */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url('/assets/girl3.jpg');
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    background-position: center;
+}
+
+.setting-person-name {
+    position: relative;
+    padding: 5px;
+    top: 20px;
+    left: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.setting-person-number {
+    position: relative;
+    padding: 5px;
+    top: 25px;
+    left: 10px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+
+
+
+.setting-container {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 350px);
+    overflow: auto;
+    background-color: whitesmoke;
+}
+.profile-setting-box{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: 280px;
+    background-color: white;
+}
+.setting-profile-log {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    /* padding: 10px 20px 10px 20px; */
+    /* border-bottom: 1px solid gray; */
+    /* margin: 10px; */
+}
+.setting-text{
+    position: relative;
+    margin-left:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(136, 90, 136);
+    line-height: 70px;
+}
+.right-arrow{
+    position: absolute;
+    top:25px;
+    right:20px;
+    width:30px;
+    height: 30px;
+    background-image: url('/assets/right-arrow.svg');
+    background-position: center;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+}
+
+
+
+.setting-line {
+    position: absolute;
+    width: calc(100% - 20px);
+    height: 1px;
+    bottom: 1px;
+    left: 20px;
+    background-color: grey;
+}
+.log-out{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: white;
+    border:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+
+
+.bottom-panel {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    bottom: 0px;
+    background: white;
+    border-top: 1px solid grey;
+}
+
+.user-icon {
+    background-image: url(/assets/user.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    left: 25px;
+}
+
+.message-icon {
+    background-image: url(/assets/message.svg);
+    background-size: 28px 25px;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 18px;
+    left: 135px;
+}
+
+.call-icon {
+    background-image: url(/assets/phone-call.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    right: 130px;
+}
+
+.settings-icon {
+    background-image: url(/assets/settings.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    right: 28px;
+}
